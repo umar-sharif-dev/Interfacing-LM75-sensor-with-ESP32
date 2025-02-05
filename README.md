@@ -23,6 +23,22 @@ This repository includes the following:
 - **Current Sensing on Arduino**: Using the **INA219 current sensor** on an Arduino, the code measures and displays the current consumption in milliamps (mA).
 - **Serial Output**: Both the ESP32 and Arduino send data to the Serial Monitor for real-time temperature and current monitoring.
 
+## Project Structure
+
+- **Interfacing-LM75-sensor-with-ESP32/**
+  - **docs/**
+    - Embedded Hardware Designer Challenge: Sensor Interface & Debug.pdf
+    - Specification Document.pdf
+  - **src_code/**
+    - current_sense.cpp  (Code for current sensing using Arduino)
+    - LM75_ESP32_PowerManagement.cpp  (Code for LM75 and power management with ESP32)
+  - **videos/**
+    - Adding Capacitor.mp4
+    - Testing 1.mp4
+    - Testing 2.mp4
+    - Testing 3.mp4
+  - **README.md**  (Project documentation)
+    
 ## Getting Started
 
 ### Requirements
